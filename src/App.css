@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.App{
+  min-height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  outline: 2px solid white;
+  border-radius: 5px;
+}
+input{
+  padding: 5px;
+  outline: none;
+}
+button{
+  padding: 5px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+button:active{
+  box-shadow: inset 2px 2px 2px black;
+}
